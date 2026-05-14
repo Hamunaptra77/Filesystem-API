@@ -1,0 +1,14 @@
+# Filesystem API configuration
+# Settings can be overridden via environment variables:
+# STORAGE_PATH, ALLOWED_DIRECTORIES, FILESYSTEM_API_KEY,
+# ALLOWED_ORIGINS, DOMAIN, FILESYSTEM_API_CONFIG_FILE
+
+storage_path = "/storage"
+allowed_directories = "/storage"
+
+# Optional API key for the filesystem service.
+api_key = "X1-8CAl9ZOTZjHzNDg-OXGfjwZCjGWrxjMumSI3dcPZ2lbIZUPpdB2zNjjtramKW"
+
+allowed_origins = "http://localhost,http://127.0.0.1"
+
+domain = "filesystem-api"
